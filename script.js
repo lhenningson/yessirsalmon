@@ -8,10 +8,11 @@ calcBtn.addEventListener("click", calcsum);
 
 
 function calcsum() { 
-    console.log(val)
-    let total = 0;
-    for (let n = 1; n <= v; n++) {
-        total = total + n;
-    }
+    
+    //let total = 0;
+   // for (let n = 1; n <= v; n++) {
+        //total = total + n;
+   // }
+   let total = 100 * 101 / 2;
     sumout.innerHTML = total;
 }
